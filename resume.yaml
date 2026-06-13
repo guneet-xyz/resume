@@ -1,0 +1,90 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Guneet Aggarwal
+  email: guneetaggarwal@gmail.com
+  website: https://guneet.dev/
+  social_networks:
+    - network: LinkedIn
+      username: guneet-aggarwal
+    - network: GitHub
+      username: guneet-xyz
+  custom_connections:
+  sections:
+    summary:
+      - Software engineer with experience in building scalable software solutions, with a focus on backend development and distributed systems. Passionate about learning new technologies and applying them to solve real-world problems.
+      - Prolific tech enthusiast with a strong interest in open-source software, AI, and cloud computing. Actively developing developer tools with a focus on infrastructure and automation.
+    experience:
+      - company: Microsoft
+        position: Software Engineer
+        start_date: 2025-07
+        end_date: present
+        location: Bengaluru, India
+        summary:
+        highlights:
+          - Worked in the **Microsoft Sovereign Cloud** team, responsible for building and maintaining the infrastructure for Microsoft's cloud services in government and regulated industries.
+          - Developed and maintained **scalable backend services** using technologies like **C#**, **.NET**, and **Azure**.
+          - Collaborated with cross-functional teams to design and implement new features, ensuring high performance and reliability of the services.
+          - Implemented **CI/CD pipelines** and automated testing frameworks to improve the development process and reduce deployment times.
+      - company: Microsoft
+        position: Software Engineer Intern
+        date:
+        start_date: 2024-05
+        end_date: 2024-07
+        location: Bengaluru, India
+        summary:
+        highlights:
+          - Integrated an **automated task execution and scheduling framework** making it easier for teams to adopt and deploy.
+          - Migrated existing telemetry task to said framework, leveraging the automated workflow.
+          - Co-ordinated with **3 teams**, generating new ideas and incorporating feedback, to deliver the final product.
+          - Programmed with technologies like **C#**, **.NET**, **PowerShell** for development and **Kubernetes**, **Docker** for deployment.
+          - Received an offer for a full-time return offer based on performance during the internship.
+    education:
+      - institution: Delhi Technological University
+        area: Information Technology
+        degree: B.Tech
+        date:
+        start_date: 2021
+        end_date: 2024
+        location: Delhi, India
+        summary:
+        highlights:
+          - "Graduated with a GPA of 9.16 with a strong academic record, consistently ranking in the top 5% of the class."
+    projects:
+      - name: '[EasyShell](https://easyshell.sh/)'
+        summary: Interactive online platform for learning shell commands
+        highlights:
+      - name: '[EasyRice](https://github.com/)'
+        summary: Tool for managing dotfiles and configuration across multiple machines
+        highlights:
+    skills:
+      - label: Programming Languages
+        details: C, C++, C#, Python, Javascript, Typescript
+      - label: Technologies
+        details: NextJS, Django, MongoDB, MySQL, TailwindCSS, .NET
+      - label: Development Tools
+        details: Neovim, Git, GitHub, Azure, Arch Linux, Kubernetes, Docker
+      - label: Other Skills
+        details: RegEx, Linux Shell Scripting, \latex
+# --------------------------------------- Settings Overrides ---------------------------------------
+design:
+  theme: sb2nov
+  header:
+    connections:
+      show_icons: true
+      space_between_connections: 0.3cm
+  page:
+    size: a4
+    top_margin: 0.7in
+    bottom_margin: 0in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_footer: false
+    show_top_note: false
+  typography:
+    font_size:
+      name: 20pt
+  links:
+    show_external_link_icon: true
+locale:
+  language: english
+  present: present
