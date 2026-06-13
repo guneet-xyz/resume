@@ -29,9 +29,9 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           tag_name: latest
-          name: Latest Build
+          name: Resume
           body: "Automated build from ${{ github.sha }}"
-          files: rendercv_output/*  # adjust to wherever your assets land
+          files: rendercv_output/Guneet_Aggarwal_CV.pdf
           make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
