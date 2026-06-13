@@ -1,0 +1,37 @@
+name: release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v6
+
+      - name: setup python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+
+      - name: install poetry
+        run: pipx install poetry
+
+      - name: install dependencies
+        run: poetry install
+
+      - name: build
+        run: make build
+
+      - name: release
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: latest
+          name: Latest Build
+          body: "Automated build from ${{ github.sha }}"
+          files: rendercv_output/*  # adjust to wherever your assets land
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
