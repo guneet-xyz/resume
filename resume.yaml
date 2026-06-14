@@ -11,8 +11,8 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Software engineer with experience in building scalable software solutions, with a focus on backend development and distributed systems. Passionate about learning new technologies and applying them to solve real-world problems.
-      - Prolific tech enthusiast with a strong interest in open-source software, AI, and cloud computing. Actively developing developer tools with a focus on infrastructure and automation.
+      - Software engineer with **11 months of experience at Microsoft**, building backend and infrastructure systems for regulated cloud environments using **C#**, **.NET**, **Azure**, **Kubernetes**, and **Docker**.
+      - Open-source builder interested in developer tools, infrastructure automation, distributed systems, and self-hosted software.
     experience:
       - company: Microsoft
         position: Software Engineer
@@ -21,10 +21,8 @@ cv:
         location: Bengaluru, India
         summary:
         highlights:
-          - Worked in the **Microsoft Sovereign Cloud** team, responsible for building and maintaining the infrastructure for Microsoft's cloud services in government and regulated industries.
-          - Developed and maintained **scalable backend services** using technologies like **C#**, **.NET**, and **Azure**.
-          - Collaborated with cross-functional teams to design and implement new features, ensuring high performance and reliability of the services.
-          - Implemented **CI/CD pipelines** and automated testing frameworks to improve the development process and reduce deployment times.
+          - Build and maintain backend infrastructure for **Microsoft Sovereign Cloud**, specifically **Azure Arc Site Manager** and related services, which enable customers to manage their on-premises resources through Azure.
+          - Develop production services in **C#**, **.NET**, and **Azure**, with focus on reliability, automation, and operational readiness across distributed cloud environments.
       - company: Microsoft
         position: Software Engineer Intern
         date:
@@ -33,11 +31,10 @@ cv:
         location: Bengaluru, India
         summary:
         highlights:
-          - Integrated an **automated task execution and scheduling framework** making it easier for teams to adopt and deploy.
-          - Migrated existing telemetry task to said framework, leveraging the automated workflow.
-          - Co-ordinated with **3 teams**, generating new ideas and incorporating feedback, to deliver the final product.
-          - Programmed with technologies like **C#**, **.NET**, **PowerShell** for development and **Kubernetes**, **Docker** for deployment.
-          - Received an offer for a full-time return offer based on performance during the internship.
+          - Integrated an **automated task execution and scheduling framework** during a **3-month internship**, making it easier for teams to adopt and deploy recurring workflows.
+          - Migrated an existing telemetry task onto the new framework, replacing manual workflow glue with a reusable automated execution path.
+          - Coordinated with **3 teams** to gather requirements, incorporate feedback, and deliver the final implementation using **C#**, **.NET**, **PowerShell**, **Kubernetes**, and **Docker**.
+          - Received a **full-time return offer** based on internship performance.
     education:
       - institution: Delhi Technological University
         area: Information Technology
@@ -48,23 +45,25 @@ cv:
         location: Delhi, India
         summary:
         highlights:
-          - "Graduated with a GPA of 9.16 with a strong academic record, consistently ranking in the top 5% of the class."
+          - "Graduated with a GPA of **9.16**, consistently ranking in the **top 5%** of the class."
     projects:
       - name: '[EasyShell](https://easyshell.sh/)'
-        summary: Interactive online platform for learning shell commands
+        summary: Platform for trying, learning, and mastering shell commands.
         highlights:
-      - name: '[EasyRice](https://github.com/)'
-        summary: Tool for managing dotfiles and configuration across multiple machines
+          - Built a **4-service** learning system spanning website, queue processor, session manager, and sandbox entrypoint, using **TypeScript**, **Go**, **Python**, and **Docker**.
+      - name: '[EasyRice](https://github.com/guneet-xyz/easyrice)'
+        summary: Cross-platform Go CLI for managing dotfiles across machines.
         highlights:
+          - Supports **Linux**, **macOS**, and **Windows** with declarative packages, machine profiles, safe uninstall state, and drift/health checks.
     skills:
       - label: Programming Languages
-        details: C, C++, C#, Python, Javascript, Typescript
+        details: C, C++, C#, Python, JavaScript, TypeScript, Go
       - label: Technologies
-        details: NextJS, Django, MongoDB, MySQL, TailwindCSS, .NET
+        details: .NET, Azure, Kubernetes, Docker, Next.js, Django, PostgreSQL, MongoDB, MySQL, TailwindCSS
       - label: Development Tools
-        details: Neovim, Git, GitHub, Azure, Arch Linux, Kubernetes, Docker
+        details: Git, GitHub Actions, Neovim, Linux, Shell Scripting, Helm
       - label: Other Skills
-        details: RegEx, Linux Shell Scripting, \latex
+        details: Distributed Systems, Backend Development, Infrastructure Automation, RegEx
 # --------------------------------------- Settings Overrides ---------------------------------------
 design:
   theme: sb2nov
@@ -74,7 +73,7 @@ design:
       space_between_connections: 0.3cm
   page:
     size: a4
-    top_margin: 0.7in
+    top_margin: 0.55in
     bottom_margin: 0in
     left_margin: 0.5in
     right_margin: 0.5in
