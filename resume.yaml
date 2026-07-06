@@ -11,8 +11,8 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Software engineer with **11 months of experience at Microsoft**, building backend and infrastructure systems for regulated cloud environments using **C#**, **.NET**, **Azure**, **Kubernetes**, and **Docker**.
-      - Open-source builder interested in developer tools, infrastructure automation, distributed systems, and self-hosted software.
+      - bullet: Software engineer with **12 months of experience at Microsoft**, building backend and infrastructure systems for regulated cloud environments using **C#**, **.NET**, **Azure**, **Kubernetes**, and **Docker**.
+      - bullet: Open-source builder interested in developer tools, infrastructure automation, distributed systems, and self-hosted software.
     experience:
       - company: Microsoft
         position: Software Engineer
@@ -22,6 +22,9 @@ cv:
         summary:
         highlights:
           - Build and maintain backend infrastructure for **Microsoft Sovereign Cloud**, specifically **Azure Arc Site Manager** and related services, which enable customers to manage their on-premises resources through Azure.
+          - Built and owned micro-service for orchestrating long running operations capable of handling **1000+** simultaneous long running tasks with state and queue resiliency.
+          - Colaborated with multiple teams for feature delivery of **Managed Resource Groups** as part of **Zero-Touch Provisioning**.
+          - Contributed to pub-sub based status computation service on **Site Manager** which handles up to **2k** notifications per second or up to **20k** notifications per minute.
           - Develop production services in **C#**, **.NET**, and **Azure**, with focus on reliability, automation, and operational readiness across distributed cloud environments.
       - company: Microsoft
         position: Software Engineer Intern
@@ -86,7 +89,7 @@ design:
     show_external_link_icon: true
 locale:
   language: english
-  present: present
+  present: Present
 settings:
   render_command:
     dont_generate_markdown: true
