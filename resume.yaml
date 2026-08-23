@@ -11,8 +11,8 @@ cv:
   custom_connections:
   sections:
     summary:
-      - bullet: Software engineer with **1 year of professional experience at Microsoft**, building backend and infrastructure systems for regulated cloud environments with **C#**, **.NET**, **Azure**, **Kubernetes**, and **Docker**.
-      - bullet: Open-source builder focused on developer tools, infrastructure automation, distributed systems, and self-hosted software.
+      - bullet: Software engineer with **1 year of professional experience at Microsoft**, building backend and infrastructure systems for cloud environments with **C#**, **.NET**, **Azure**, **Kubernetes**, and **Docker**.
+      - bullet: **Open-source builder** focused on developer tools, infrastructure automation, distributed systems, and self-hosted software.
     experience:
       - company: Microsoft
         position: Software Engineer
@@ -22,8 +22,8 @@ cv:
         summary:
         highlights:
           - Build and maintain backend infrastructure for **Microsoft Sovereign Cloud**, including **Azure Arc Site Manager** and related services, using **C#**, **.NET**, **Azure**, **Kubernetes**, and **Docker**.
-          - Built and owned a microservice for orchestrating **long-running operations**, supporting **1000+** concurrent tasks with resilient state management and queue processing.
-          - Contributed to a pub-sub status computation service for **Site Manager** that handles up to **2k** notifications per second and **20k** notifications per minute through a microservice and multi-layer caching architecture.
+          - Developed and owned a microservice for orchestrating **long-running operations**, supporting **1000+** concurrent tasks with resilient state management and queue processing.
+          - Contributed to a pub-sub status computation service for **Site Manager** that handles up to **2k** notifications per second and **20k** notifications per minute through a **microservice** and **multi-layer caching** architecture.
           - Collaborated across teams to deliver **Managed Resource Groups** for **Zero-Touch Provisioning**, enabling partner services to deploy resources in customer environments and manage customer access.
       - company: Microsoft
         position: Software Engineer Intern
@@ -34,7 +34,7 @@ cv:
         summary:
         highlights:
           - Integrated an **automated task execution and scheduling framework** during a **3-month internship**, simplifying adoption of recurring workflows across teams.
-          - Migrated an existing telemetry task to the new framework, replacing manual workflow glue with a reusable automated execution path.
+          - Migrated an **existing telemetry task** to the new framework, replacing manual workflow glue with a reusable automated execution path.
           - Coordinated with **3 teams** to gather requirements, incorporate feedback, and deliver the implementation using **C#**, **.NET**, **PowerShell**, **Kubernetes**, and **Docker**.
           - Received a **full-time return offer** based on internship performance.
     education:
@@ -52,7 +52,7 @@ cv:
           - "Notable coursework: **Data Structures and Algorithms**, **Operating Systems**, **Database Management Systems**, **Computer Networks**, **Software Engineering**."
     projects:
       - name: '[EasyShell](https://easyshell.sh/)'
-        summary: Browser-based platform for learning and practicing shell commands through live terminal sessions and automated submission evaluation.
+        summary: Browser-based platform for learning and practicing shell commands through **live terminal sessions** and automated submission evaluation.
         highlights:
           - Developed **multiple microservices** to manage terminal sessions, submission queues, and the entrypoint service.
           - Used **TypeScript**, **Go**, and **Docker** to provide isolated terminal sessions.
