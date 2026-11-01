@@ -22,7 +22,7 @@ cv:
           - Implemented backend APIs for customer-facing capacity allocation objects, enabling cloud owners to offer local infrastructure resource pools to different customers.
           - Owned development of a microservice coordinating **1,000+ concurrent long-running operations**, using resilient state management and queue processing.
           - Integrated a new notification event type into a status computation microservice processing **2,000 notifications per second** typically and **100,000+ per second at peak**, using **gRPC** and caching layers.
-          - Investigate production issues using **KQL** and internal monitoring tools; maintain **20+ Azure DevOps pipelines** for **CI/CD**.
+          - Investigate production issues and perform **root cause analysis** using **KQL** and internal monitoring tools; maintain **20+ Azure DevOps pipelines** for **CI/CD**.
       - company: Microsoft
         position: Software Engineer Intern
         date:
@@ -51,7 +51,7 @@ cv:
     projects:
       - name: '[DTU Archive](https://github.com/guneet-xyz/dtu-archive)'
         highlights:
-          - Created a **Next.js**, **React**, and **MySQL** application to explore course information and results for **10,000+ students**.
+          - Created a full-stack **Next.js** and **ReactJS** application with a **MySQL** relational database to explore course information and results for **10,000+ students**.
           - Wrote **SQL** queries with joins and common table expressions to analyze student results across **500,000+ exam scores**; used **TypeScript** and **Prisma** for application data.
       - name: '[EasyShell](https://easyshell.sh/)'
         highlights:
@@ -60,13 +60,15 @@ cv:
           - Implemented automated submission evaluation alongside live terminal sessions for practicing shell commands.
     skills:
       - label: Programming Languages
-        details: C#, TypeScript, JavaScript, Go, Python, SQL, C, C++, PowerShell
+        details: C#, Python, Java, TypeScript, JavaScript, Go, SQL, C, C++, PowerShell
       - label: Technologies
-        details: .NET, Azure, Kubernetes, Docker, Next.js, React, PostgreSQL, MongoDB, MySQL, TailwindCSS
+        details: .NET, FastAPI, Django, Spring Boot, Azure, Kubernetes, Docker, Next.js, React, PostgreSQL, MongoDB, MySQL, TailwindCSS
       - label: Development Tools
         details: Git, GitHub Actions, Azure DevOps, KQL, Linux, Shell Scripting, Helm
-      - label: Agentic Tools
+      - label: Agentic Development Tools
         details: OpenCode, Claude Code, GitHub Copilot
+      - label: Engineering Practices
+        details: Unit Testing, Integration Testing, Test-Driven Development, Code Reviews, Agile, Object-Oriented Programming, Design Patterns
       - label: Other Skills
         details: Infrastructure Management, Distributed Systems, Backend Development, REST APIs, Web Automation, RegEx
 # --------------------------------------- Settings Overrides ---------------------------------------

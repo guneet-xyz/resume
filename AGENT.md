@@ -8,4 +8,4 @@
 - Avoid repetition and unnecessary verbosity, but do not cut substantive work merely to make bullets shorter. Do not add filler to satisfy resume-scoring tools.
 - Treat automated resume feedback as a suggestion, not a fact. Check flagged wording and formatting against the actual resume before changing it; avoid adding unsupported leadership, teamwork, or other claims to improve a score.
 - Keep dates consistently formatted with full month names. Preserve a readable one-page layout and keep header links on one line when possible, without removing substantive content just to fit.
-- The resume uses RenderCV. Render changes to a temporary output folder to check validity and layout without overwriting existing generated files, which may be user work.
+- The resume uses RenderCV. After each resume edit, render `resume.yaml` directly to `rendercv_output` and check validity and layout so the generated PDF stays current.
