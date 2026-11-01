@@ -21,7 +21,7 @@ cv:
           - Developed and maintained **C#** and **.NET** REST APIs spanning **50+ endpoints** for **Azure Local**, a platform bringing Azure capabilities to locally hosted infrastructure, within **Microsoft Sovereign Cloud**.
           - Implemented backend APIs for customer-facing capacity allocation objects, enabling cloud owners to offer local infrastructure resource pools to different customers.
           - Owned development of a microservice coordinating **1,000+ concurrent long-running operations**, using resilient state management and queue processing.
-          - Integrated a new notification event type into a status computation microservice processing **2,000 notifications per second** typically and **100,000+ per second at peak**, using **gRPC** and caching layers.
+          - Integrated a new notification event type into a **pub/sub** status computation microservice processing **2,000 notifications per second** typically and **100,000+ per second at peak**, using **gRPC** and caching layers.
           - Investigate production issues and perform **root cause analysis** using **KQL** and internal monitoring tools; maintain **20+ Azure DevOps pipelines** for **CI/CD**.
       - company: Microsoft
         position: Software Engineer Intern
@@ -62,9 +62,9 @@ cv:
       - label: Programming Languages
         details: C#, Python, Java, TypeScript, JavaScript, Go, SQL, C, C++, PowerShell
       - label: Technologies
-        details: .NET, FastAPI, Django, Spring Boot, Azure, Kubernetes, Docker, Next.js, React, PostgreSQL, MongoDB, MySQL, TailwindCSS
+        details: .NET, FastAPI, Django, Spring Boot, Azure, Kubernetes, Docker, Next.js, React, HTML, CSS, PostgreSQL, MongoDB, MySQL, TailwindCSS
       - label: Development Tools
-        details: Git, GitHub Actions, Azure DevOps, KQL, Linux, Shell Scripting, Helm
+        details: Git, GitHub Actions, Azure DevOps, Bicep, KQL, Linux, Shell Scripting, Helm
       - label: Agentic Development Tools
         details: OpenCode, Claude Code, GitHub Copilot
       - label: Engineering Practices
