@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+# Cybersecurity-targeted resume. Design, locale and settings come from resume.yaml (see Makefile).
+cv:
+  name: Guneet Aggarwal
+  email: guneetaggarwal@gmail.com
+  website: https://guneet.dev/
+  social_networks:
+    - network: LinkedIn
+      username: guneet-aggarwal
+    - network: GitHub
+      username: guneet-xyz
+  custom_connections:
+  sections:
+    experience:
+      - company: Microsoft
+        position: Software Engineer
+        start_date: 2025-07
+        end_date: present
+        location: Bengaluru, India
+        summary:
+        highlights:
+          - Developed and maintained **C#** and **.NET** REST APIs spanning **50+ endpoints** for **Azure Local** within **Microsoft Sovereign Cloud**, a platform bringing Azure capabilities to locally hosted infrastructure.
+          - Perform **root cause analysis** of production issues by querying logs and telemetry with **KQL** and internal tools; maintain **20+ Azure DevOps pipelines** for **CI/CD**.
+          - Implemented backend APIs for customer-facing capacity allocation objects, enabling cloud owners to offer local infrastructure resource pools to different customers.
+          - Owned development of a microservice coordinating **1,000+ concurrent long-running operations**, using resilient state management and queue processing.
+          - Integrated a new notification event type into a **pub/sub** status computation microservice processing **2,000 notifications per second** typically and **100,000+ per second at peak**, using **gRPC** and caching layers.
+      - company: Microsoft
+        position: Software Engineer Intern
+        date:
+        start_date: 2024-05
+        end_date: 2024-07
+        location: Bengaluru, India
+        summary:
+        highlights:
+          - Integrated a task execution and scheduling framework now used by **more than 5 sister teams** for recurring workflows.
+          - Migrated **2 tasks**, including a telemetry task, to the framework, replacing manually assembled workflows with a reusable execution path.
+          - Collaborated with **3 teams** to gather requirements, incorporate feedback, and deliver the implementation using **C#**, **.NET**, **PowerShell**, **Kubernetes**, and **Docker**.
+          - Earned a **full-time software engineer return offer** based on internship performance.
+    education:
+      - institution: Delhi Technological University
+        area: Information Technology
+        degree: B.Tech
+        date:
+        start_date: 2021-12
+        end_date: 2025-05
+        location: Delhi, India
+        summary:
+        highlights:
+          - Graduated with a GPA of **9.16/10**, ranking in the **top 5%** of the class.
+          - Studied **Computer Networks**, **Operating Systems**, **Database Management Systems**, **Data Structures and Algorithms**, and **Software Engineering**.
+          - Secured **2nd** place among **60+** teams in a college hackathon.
+    projects:
+      - name: '[EasyShell](https://easyshell.sh/)'
+        highlights:
+          - Built **4 microservices** for a browser-based shell practice platform, covering terminal session management, submission queues, and the entry point.
+          - Provisioned isolated, containerized terminal sessions using **TypeScript**, **Go**, and **Docker**, supporting up to **100 concurrent sessions**.
+          - Implemented automated submission evaluation alongside live terminal sessions for practicing shell commands.
+      - name: '[DTU Archive](https://github.com/guneet-xyz/dtu-archive)'
+        highlights:
+          - Created a full-stack **Next.js** and **ReactJS** application with a **MySQL** relational database to explore course information and results for **10,000+ students**.
+          - Wrote **SQL** queries with joins and common table expressions to analyze student results across **500,000+ exam scores**, and used **TypeScript** and **Prisma** for application data.
+    skills:
+      - label: Systems and Infrastructure
+        details: Linux, Shell Scripting, PowerShell, Docker, Kubernetes, Helm, Azure, Bicep
+      - label: Monitoring and Delivery
+        details: KQL, Azure DevOps, GitHub Actions, Git
+      - label: Programming Languages
+        details: C#, Python, Go, Java, TypeScript, JavaScript, SQL, C, C++
+      - label: Technologies
+        details: .NET, FastAPI, Django, Spring Boot, PostgreSQL, MongoDB, MySQL, Next.js, React
+      - label: Agentic Development Tools
+        details: OpenCode, Claude Code, GitHub Copilot
+      - label: Engineering Practices
+        details: Unit Testing, Integration Testing, Test-Driven Development, Code Reviews, Agile, Object-Oriented Programming, Design Patterns
+      - label: Other Skills
+        details: Distributed Systems, Infrastructure Management, Backend Development, REST APIs, RegEx, Web Automation

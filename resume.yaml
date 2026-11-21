@@ -52,7 +52,7 @@ cv:
       - name: '[DTU Archive](https://github.com/guneet-xyz/dtu-archive)'
         highlights:
           - Created a full-stack **Next.js** and **ReactJS** application with a **MySQL** relational database to explore course information and results for **10,000+ students**.
-          - Wrote **SQL** queries with joins and common table expressions to analyze student results across **500,000+ exam scores**; used **TypeScript** and **Prisma** for application data.
+          - Wrote **SQL** queries with joins and common table expressions to analyze student results across **500,000+ exam scores**, and used **TypeScript** and **Prisma** for application data.
       - name: '[EasyShell](https://easyshell.sh/)'
         highlights:
           - Built **4 microservices** for a browser-based shell practice platform, covering terminal session management, submission queues, and the entry point.
